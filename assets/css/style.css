@@ -59,7 +59,7 @@ a{
 
 
 .main-bg{
-    background-image: url('../img/main-bg.svg');
+    background-image: url('../img/liquid-cheese.svg');
     background-size:cover ;
     background-position: center center;
     color: var(--white-color) ;
@@ -162,10 +162,56 @@ a{
 .carreira{
     max-width: 64rem;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column ;
     justify-content: center;
+    height: 100vh;
     text-align: center;
 }
 p{
     margin-bottom: 3rem ;
+}
+.grid-one-content{
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    height: 100vh;
+}
+.grid-one-content h2 {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+.grid-main-heading{
+    margin-bottom: 1rem;
+    justify-self: start;
+    align-self: start;
+}
+.grid-description{
+    padding-bottom: 5rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
+.grid h3{
+    font-size: 3rem;
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+.grid h3::before{
+    counter-increment:grid-counter ;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 8rem;
+    font-style: italic;
+    top: -4rem;
+    left: -2rem;
+    transform: rotate(5deg);
+}
+#Carreira{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
 }
