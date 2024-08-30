@@ -73,7 +73,7 @@ a{
 .main-content{
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 10rem var(--gap);
 }
 
 .section{
@@ -142,7 +142,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 .intro-text-content, .intro-img {
     display: flex;
@@ -156,8 +156,11 @@ a{
     line-height: 1.2;
 }
 .intro-img img{
-    max-width: 50%;
-    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    height: 70%;
 }
 .carreira{
     max-width: 64rem;
@@ -174,7 +177,7 @@ p{
     display: flex;
     flex-flow: column ;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .grid-one-content h2 {
     display: flex;
