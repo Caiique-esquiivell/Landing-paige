@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing paige</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin >
     <link rel="stylesheet" href=" https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -12,16 +12,25 @@
 <body class="main-bg">
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
-                <a href="">Emicida</a>
-            </h1>
+            <div class="menu-artistas">
+                <span id="artista-nome">EMICIDA</span>
+                <i class="seta-icon">&#9660;</i>
+                <!-- Menu de opções oculto inicialmente -->
+                <div class="dropdown">
+                  <a href="/artistas/ManoBrown.html">Mano Brown</a>
+                  <a href="#">Artista 2</a>
+                  <a href="#">Artista 3</a>
+                  <!-- Adicione mais artistas conforme necessário -->
+                </div>
+              </div>
+              
              <nav>
                 <ul>
                     <li><a href="#Quem-foi">Quem é</a></li>
                     <li><a href="#Carreira">Carreira</a></li>
                     <li><a href="#Albuns">Álbuns</a></li>
                     <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#">Contract</a></li>
+                    <li><a href="#Contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -75,24 +84,42 @@
             <p class="grid-description">Algumas fotos de Emicida</p>
             <div class="grid">
               <div class="gallery-img">
-                <img src="assets/img/download.jpeg" alt="">
+                <img src="/assets/img/download.jpeg" alt="">
               </div>
               <div class="gallery-img">
-                <img src="assets/img/download (1).jpeg" alt="">
+                <img src="/assets/img/download (1).jpeg" alt="">
               </div>
               <div class="gallery-img">
-                <img src="assets/img/download (2).jpeg" alt="">
+                <img src="/assets/img/download (2).jpeg" alt="">
               </div>
               <div class="gallery-img">
-                <img src="assets/img/download (3).jpeg" alt="">
+                <img src="/assets/img/download (3).jpeg" alt="">
               </div>
               <div class="gallery-img">
-                <img src="assets/img/download (4).jpeg" alt="">
+                <img src="/assets/img/download (4).jpeg" alt="">
               </div>
               <div class="gallery-img">
-                <img src="assets/img/images.jpeg" alt="">
+                <img src="/assets/img/images.jpeg" alt="">
               </div>
         </div> 
-    </section>
+    </section >
+    <section id="Contato" class="intro main-bg section-one">
+        <div class="main-content intro-content">
+            <div class="contato">
+                <h2>Contato</h2> 
+                <p>Para entrar em contato comigo, envie suas dúvidas, sugestões, alterações ou qualquer outra solicitação. Estou disponível pelo LinkedIn, Instagram e GitHub. Clique nos ícones abaixo</p>
+            <div class="Imagem">
+                <a href="https://www.linkedin.com/in/caique-esquivel-74a64322b" target="_blank"><img src="/assets/img/download-removebg-preview.png" alt=""></a>
+                <a href="https://www.instagram.com/caiique_esquiivell" target="_blank"><img src="/assets/img/download__5_-removebg-preview.png" alt=""></a>
+                <a href="https://github.com/Caiique-esquiivell" target="_blank"><img src="/assets/img/images-removebg-preview.png" alt=""></a>
+
+            </div>
+            </div>
+         </div>
+        </section>
+
+        <footer id="footer" class=" footer white-bg">
+            <p>Este site foi feito em conjuto ao curso de programação FullStack na Udemy com o professor Luiz Otávio, alem disso esse site não é oficial, eu apenas o fiz para treinar as minhas habilidades com CSS e HTML </p>
+        </footer>
 </body>
 </html>
