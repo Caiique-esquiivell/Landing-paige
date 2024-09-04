@@ -413,5 +413,8 @@ p{
     .menu-spacing{
         display: none;
     }
-
+    .carreira{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
 }
