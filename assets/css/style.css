@@ -360,7 +360,7 @@ p{
     }
 
 }
-@media(max-width:500px){
+@media(max-width:300px){
     .intro-content , .grid{
         grid-template-columns: 1fr;
     }
@@ -413,8 +413,11 @@ p{
     .menu-spacing{
         display: none;
     }
-    .carreira{
+    .carreira h2{
         padding-top: 2.5rem;
         padding-bottom: 2.5rem;
+    }
+    h2{
+        font-size: 4rem;
     }
 }
