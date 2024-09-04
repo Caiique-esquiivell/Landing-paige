@@ -358,5 +358,8 @@ p{
     .menu-spacing{
         display: none;
     }
+    .section{
+        min-width: 100%;
+    }
 
 }
